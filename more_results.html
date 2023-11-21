@@ -18,12 +18,12 @@
             border: none;
         }
         .responsive-img {
-            max-width: 100%; /* ensures the image is not larger than the container */
+            width: 100%; /* Scale width to fit the container */
+            /* max-width: 100%; ensures the image is not larger than the container */
             height: auto; /* maintains the aspect ratio */
             display: block; /* aligns the image properly */
             margin-left: auto; /* these two margin properties center the image */
             margin-right: auto;
-            width: 100%; /* Scale width to fit the container */
             object-fit: cover; /* This ensures the image covers the container */
         }
     </style>
@@ -60,7 +60,7 @@
                 <h4 id="jelly">
                     Jelly
                 </h4>
-                <div class="container" style="max-width: fit-content;">
+                <div class="container" style="max-width: 60%;">
                     <div class="row">
                         <div class="col-md-4">
                             <span style="font-size: large; text-align: center; display: block;">
@@ -101,10 +101,54 @@
                     </div>
                 </div>
 
+                <h4 id="bouncing">
+                    Bouncing
+                </h4>
+                <div class="container" style="max-width: 60%;">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span style="font-size: large; text-align: center; display: block;">
+                                <img src="files/rebuttal/recon/bouncing.gif" class="responsive-img">
+                            </span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <span style="font-size: large; text-align: center; display: block;">
+                                <img src="files/rebuttal/recon/bouncing_sb.gif" class="responsive-img">
+                            </span>
+                        </div>
+                    
+                        <div class="col-md-4">
+                            <span style="font-size: large; text-align: center; display: block;">
+                                <img src="files/rebuttal/recon/phase_bouncing.png" class="responsive-img">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <span style="font-size: large; text-align: center; display: block;">
+                                Input Video
+                            </span>
+                        </div>
+
+                        <div class="col-md-4">
+                            <span style="font-size: large; text-align: center; display: block;">
+                                Subband Discovered
+                            </span>
+                        </div>
+                    
+                        <div class="col-md-4">
+                            <span style="font-size: large; text-align: center; display: block;">
+                                Phase Reconstructed
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
                 <h4 id="collision">
                     Collision
                 </h4>
-                <div class="container" style="max-width: fit-content;">
+                <div class="container" style="max-width: 60%;">
                     <div class="row">
                         <div class="col-md-4">
                             <span style="font-size: large; text-align: center; display: block;">
@@ -150,7 +194,7 @@
                 <h4 id="ball3">
                     Ball3
                 </h4>
-                <div class="container" style="max-width: fit-content;">
+                <div class="container" style="max-width: 60%;">
                     <div class="row">
                         <div class="col-md-4">
                             <span style="font-size: large; text-align: center; display: block;">
@@ -196,7 +240,7 @@
                 <h4 id="projectile">
                     Projectile
                 </h4>
-                <div class="container" style="max-width: fit-content;">
+                <div class="container" style="max-width: 60%;">
                     <div class="row">
                         <div class="col-md-4">
                             <span style="font-size: large; text-align: center; display: block;">
@@ -242,7 +286,7 @@
                 <h4 id="damping">
                     Damping
                 </h4>
-                <div class="container" style="max-width: fit-content;">
+                <div class="container" style="max-width: 60%;">
                     <div class="row">
                         <div class="col-md-4">
                             <span style="font-size: large; text-align: center; display: block;">
@@ -298,7 +342,20 @@
                 <h3 id="manip">
                     Motion Manipulation
                 </h3>
-                <div class="container" style="max-width: fit-content;">
+                <div class="container" style="max-width: 60%;">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span style="font-size: large; text-align: center; display: block;">
+                                <img src="files/rebuttal/manip/vib.gif" class="responsive-img">
+                            </span>
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <span style="font-size: large; text-align: center; display: block;">
+                                <img src="files/rebuttal/manip/vib_smooth.gif" class="responsive-img">
+                            </span>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-md-6">
                             <span style="font-size: large; text-align: center; display: block;">
@@ -310,6 +367,22 @@
                             <span style="font-size: large; text-align: center; display: block;">
                                 Manipulated Video
                             </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container" style="max-width: 60%;">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- <span style="font-size: large; text-align: center; display: block;"> -->
+                                <img src="files/rebuttal/manip/bouncing.gif" class="responsive-img">
+                            <!-- </span> -->
+                        </div>
+                    
+                        <div class="col-md-6" style="align-items: center;">
+                            <!-- <span style="font-size: large; text-align: center; display: block;"> -->
+                                <img src="files/rebuttal/manip/bouncing_mag.gif" class="responsive-img">
+                            <!-- </span> -->
                         </div>
                     </div>
                     <div class="row">
@@ -327,7 +400,35 @@
                     </div>
 
                 </div>
-                <div class="text-center">
+
+                <div class="container" style="max-width: 60%;">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <!-- <span style="font-size: large; text-align: center; display: block;"> -->
+                                <img src="files/rebuttal/manip/ball2.gif" class="responsive-img">
+                            <!-- </span> -->
+                        </div>
+                    
+                        <div class="col-md-6" style="align-items: center;">
+                            <!-- <span style="font-size: large; text-align: center; display: block;"> -->
+                                <img src="files/rebuttal/manip/ball2_filter.gif" class="responsive-img">
+                            <!-- </span> -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span style="font-size: large; text-align: center; display: block;">
+                                Input Video
+                            </span>
+                        </div>
+                    
+                        <div class="col-md-6">
+                            <span style="font-size: large; text-align: center; display: block;">
+                                Manipulated Video
+                            </span>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -338,7 +439,7 @@
                 <h3 id="fail">
                     Failure Cases
                 </h3>
-                <div class="container" style="max-width: fit-content;">
+                <div class="container" style="max-width: 60%;">
                     <div class="row">
                         <div class="col-md-4">
                             <span style="font-size: large; text-align: center; display: block;">
